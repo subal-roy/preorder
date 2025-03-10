@@ -1,0 +1,26 @@
+{
+    "name": "subal-roy/preorder",
+    "description": "A laravel package to manage preorder of an online shop",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SubalRoy\\Preorder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "SubalRoy\\Preorder\\PreorderServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Subal Roy",
+            "email": "subalroy5561@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
